@@ -1,8 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@300&display=swap');
 
+/*--------------------------------------------color*/
+
 .h-bg-color{
     background-color: rgb(95, 196, 255);
 }
+
+.menu-color-1{
+    background-color: coral;
+}
+
+.menu-color-2{
+    background-color: lightsalmon;
+}
+
+/*--------------------------------------------Heading*/
 
 header{margin: 0;}
 
@@ -31,4 +43,41 @@ header{margin: 0;}
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer{
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 30px;
+    padding: 0;
+}
+
+.men-item{
+    height: 120px;
+    text-align: center;
+    padding: 0;
+    margin-left: 0;
+}
+
+.men-item a {
+    width: 100%;
+    text-decoration: none;
+    color: #676767;
+    height: 120px;
+}
+
+.men-item span {
+    padding-top: 35px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-family: "Roboto";
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
