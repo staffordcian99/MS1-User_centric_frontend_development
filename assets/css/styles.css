@@ -152,6 +152,38 @@ header{margin: 0;}
     height: 240px;
 }
 
+.gigs{
+    text-align: center;
+    color: #676767;
+    font-family: "Roboto";
+    padding-bottom: 40px;
+    background-color: rgb(95, 196, 255);
+    margin-bottom: 20px;
+    height: 240px;
+    letter-spacing: 2px;
+}
+
+.gigs-2{
+    text-align: center;
+    color: #676767;
+    font-family: "Roboto";
+    padding-bottom: 40px;
+    background-color: rgb(121, 200, 247);
+    margin-bottom: 20px;
+    height: 240px;
+    letter-spacing: 2px;
+}
+
+.gigs p, .gigs-2 p{
+    padding-top: 20px;
+}
+
+.gigs h3, .gigs-2 h3{
+    padding-top: 40px;
+    letter-spacing: 2px;
+    font-family: "Oswald";
+}
+
 /*--------------------------------------------Footer*/
 
 footer{
