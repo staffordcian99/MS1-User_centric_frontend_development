@@ -203,8 +203,36 @@ img{
     max-width: 200px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-radius: 50%;
+    border-radius: 25%;
 }
+
+/*--------------------------------------------Booking page*/
+
+.booking{
+    text-align: center;
+    font-family: "Roboto";
+    letter-spacing: 2px;
+    color: #676767;
+    background-color: rgb(121, 200, 247);
+    background-position: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 33.3%;
+    margin-right: 33.3%;
+}
+
+.button{
+    background-color: coral;
+    color: #444141;
+    margin-top: 20px; 
+    font-family: "Roboto"; 
+
+}
+
+.button label{
+    margin-bottom: 20px;
+}
+
 /*--------------------------------------------Footer*/
 
 footer{
