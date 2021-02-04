@@ -60,6 +60,7 @@ header{margin: 0;}
     font-size: 35px;
     margin-top: 20px;
     margin-bottom: 60px;
+    color: #676767;
 }
 
 .logo{
@@ -280,4 +281,59 @@ footer{
     color: #676767;
     margin-left: 8.33%;
     margin-right: 8.33%;
+}
+
+/*--------------------------------------------Responsiveness*/
+
+@media screen and (max-width: 1125px){
+   
+    .title {
+        margin-top: 20px; 
+    }
+
+    .men-item span {
+        letter-spacing: normal;
+    }
+
+    #nav li {
+        font-size: 25px;
+        }
+
+    .content{
+        letter-spacing: normal;
+    }
+
+    .pic-3 {
+        margin-top: 30px;
+    }
+
+    #hoodie-1{
+        padding-bottom: 28px;
+        font-size: 19px;
+    }
+
+    .albums{
+        padding-bottom: 50px;
+
+    }
+
+    .img {
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+
+    .alb-h{
+        font-size: 20px;
+    }
+
+    .booking{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+
+}
+
+@media screen and (max-width: 767px){
+
 }
